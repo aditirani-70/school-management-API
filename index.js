@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql2');
 
-const app = express();  // app ko sabse pehle declare karo
+const app = express();  // declare app
 
 app.use((req, res, next) => {
   console.log('Request URL:', req.url);
